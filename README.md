@@ -1,15 +1,18 @@
-# What is a compose key?
+## Nordic and german characters with compose key on OS X
+
+Adapted from [gnarf/osx-compose-key](https://github.com/gnarf/osx-compose-key).
+
+### What is a compose key?
 
 A "compose" key is an input method used for complex characters.  It allows you to press your compose key (I bind mine to right-alt on my mac keyboard), and then type something, for instance:
 
-* `[Compose]`, `+`, `1` = `👍`
-* `[Compose]`, `s`, `h`, `r`, `u`, `g` = `¯\_(ツ)_/¯`
+* `[Compose]`, `/`, `o` = `ø`
+* `[Compose]`, `a`, `e` = `æ`
+* `[Compose]`, `"`, `o` = `ö`
 
-This repo contains my compose key setup but should easily allow you to create your own powerful compositions.  The [`DefaultKeyBinding.dict`](DefaultKeyBinding.dict) file contains a tree of "composition".  I entertain pull requests to add new shortcuts you feel are important to your day to day.
+This repo provides the compose key sequences for nordic and german charachters not found on a standard english keyboard.
 
-You can read more about it on the [blog that inspired this setup](http://lolengine.net/blog/2012/06/17/compose-key-on-os-x).
-
-# Setting up a "Compose Key" in Mac OS X
+### Setting up a "Compose Key" in Mac OS X
 
 Install [Karabiner](https://pqrs.org/osx/karabiner/) for remapping keys support, and download these files into the correct places:
 
