@@ -1,57 +1,57 @@
 {
     /* The Compose Key: § - use Karabiner to bind to Right-Option
-       Reference:
-         http://github.com/viis/osx-compose-key
-         http://github.com/gnarf/osx-compose-key
+        Reference:
+        http://github.com/viis/osx-compose-key
+        http://github.com/gnarf/osx-compose-key
     */
     "§" = {
-         "'" = {
-	    	"a" = ("insertText:", "á");
-	    	"A" = ("insertText:", "Á");
-	    	"e" = ("insertText:", "é");
-	    	"E" = ("insertText:", "É");
-	    	"i" = ("insertText:", "í");
-	    	"I" = ("insertText:", "Í");
-	    	"o" = ("insertText:", "ó");
-	    	"O" = ("insertText:", "Ó");
-	    	"u" = ("insertText:", "ú");
-	    	"U" = ("insertText:", "Ú");
-	    	"y" = ("insertText:", "ý");
-	    	"Y" = ("insertText:", "Ý");
-		};
+        "'" = {
+            "a" = ("insertText:", "á");
+            "A" = ("insertText:", "Á");
+            "e" = ("insertText:", "é");
+            "E" = ("insertText:", "É");
+            "i" = ("insertText:", "í");
+            "I" = ("insertText:", "Í");
+            "o" = ("insertText:", "ó");
+            "O" = ("insertText:", "Ó");
+            "u" = ("insertText:", "ú");
+            "U" = ("insertText:", "Ú");
+            "y" = ("insertText:", "ý");
+            "Y" = ("insertText:", "Ý");
+        };
         "`" = {
-           "a" = ("insertText:", "à");
-           "A" = ("insertText:", "À");
-           "e" = ("insertText:", "è");
-           "E" = ("insertText:", "È");
-           "i" = ("insertText:", "ì");
-           "I" = ("insertText:", "Ì");
-           "o" = ("insertText:", "ò");
-           "O" = ("insertText:", "Ò");
-           "u" = ("insertText:", "ù");
-           "U" = ("insertText:", "Ù");
-           "y" = ("insertText:", "ỳ");
-           "Y" = ("insertText:", "Ỳ");
-       };
-		"d" = {
-	    	"h" = ("insertText:", "ð");
-	    };
-	    "D" = {
-	    	"h" = ("insertText:", "Ð");
-	    };
-	    "t" = {
-	    	"h" = ("insertText:", "þ");
-	    };
-	    "T" = {
-	    	"h" = ("insertText:", "Þ");
-	    };
-		"a" = {
-	    	"e" = ("insertText:", "æ");
-	    };
-	    "A" = {
-	    	"e" = ("insertText:", "Æ");
-	    };
-	    '"' = {
+            "a" = ("insertText:", "à");
+            "A" = ("insertText:", "À");
+            "e" = ("insertText:", "è");
+            "E" = ("insertText:", "È");
+            "i" = ("insertText:", "ì");
+            "I" = ("insertText:", "Ì");
+            "o" = ("insertText:", "ò");
+            "O" = ("insertText:", "Ò");
+            "u" = ("insertText:", "ù");
+            "U" = ("insertText:", "Ù");
+            "y" = ("insertText:", "ỳ");
+            "Y" = ("insertText:", "Ỳ");
+        };
+        "d" = {
+            "h" = ("insertText:", "ð");
+        };
+        "D" = {
+            "h" = ("insertText:", "Ð");
+        };
+        "t" = {
+            "h" = ("insertText:", "þ");
+        };
+        "T" = {
+            "h" = ("insertText:", "Þ");
+        };
+        "a" = {
+            "e" = ("insertText:", "æ");
+        };
+        "A" = {
+            "e" = ("insertText:", "Æ");
+        };
+        '"' = {
             "a" = ("insertText:", "ä");
             "A" = ("insertText:", "Ä");
             "e" = ("insertText:", "ë");
@@ -64,17 +64,17 @@
             "U" = ("insertText:", "Ü");
             "y" = ("insertText:", "ÿ");
             "Y" = ("insertText:", "Ÿ");
-	    };
-	    "/" = {
-	    	"o" = ("insertText:", "ø");
-	    	"O" = ("insertText:", "Ø");
-	    };
-	    "o" = {
-	    	"a" = ("insertText:", "å");
-	    	"A" = ("insertText:", "Å");
-	    };
-	    "s" = {
-	    	"s" = ("insertText:", "ß");
-	    };
+        };
+        "/" = {
+            "o" = ("insertText:", "ø");
+            "O" = ("insertText:", "Ø");
+        };
+        "o" = {
+            "a" = ("insertText:", "å");
+            "A" = ("insertText:", "Å");
+        };
+        "s" = {
+            "s" = ("insertText:", "ß");
+        };
     };
 }
