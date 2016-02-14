@@ -80,5 +80,9 @@
             "c" = ("insertText:", "ç");
             "C" = ("insertText:", "Ç");
         };
+        "-" = {
+            "n" = ("insertText:", "ñ");
+            "N" = ("insertText:", "Ñ");
+        };
     };
 }
