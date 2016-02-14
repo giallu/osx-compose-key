@@ -1,4 +1,4 @@
-## Nordic and german characters with compose key on OS X
+## Compose key on OS X
 
 Adapted from [gnarf/osx-compose-key](https://github.com/gnarf/osx-compose-key).
 

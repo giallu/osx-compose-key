@@ -19,6 +19,20 @@
 	    	"y" = ("insertText:", "ý");
 	    	"Y" = ("insertText:", "Ý");
 		};
+        "`" = {
+           "a" = ("insertText:", "à");
+           "A" = ("insertText:", "À");
+           "e" = ("insertText:", "è");
+           "E" = ("insertText:", "È");
+           "i" = ("insertText:", "ì");
+           "I" = ("insertText:", "Ì");
+           "o" = ("insertText:", "ò");
+           "O" = ("insertText:", "Ò");
+           "u" = ("insertText:", "ù");
+           "U" = ("insertText:", "Ù");
+           "y" = ("insertText:", "ỳ");
+           "Y" = ("insertText:", "Ỳ");
+       };
 		"d" = {
 	    	"h" = ("insertText:", "ð");
 	    };
@@ -58,4 +72,3 @@
 	    };
     };
 }
-
