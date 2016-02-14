@@ -26,6 +26,6 @@ curl 'https://raw.githubusercontent.com/viis/osx-compose-key/master/DefaultKeyBi
 
 In Karabiner, enable "Send § for Right Command":
 
-![screenshot](http://i.imgur.com/rDHPh3u.png)
+![screenshot](https://i.imgur.com/zSJmECg.png)
 
 Note: changes to `~/Library/KeyBindings/DefaultKeyBinding.dict` require quitting and restarting any apps you want to test them in.
