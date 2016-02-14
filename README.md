@@ -19,13 +19,13 @@ Install [Karabiner](https://pqrs.org/osx/karabiner/) for remapping keys support,
 ```bash
 brew cask install karabiner
 mkdir -p ~/Library/Application\ Support/Karabiner
-curl 'https://raw.githubusercontent.com/gnarf/osx-compose-key/master/private.xml' -o ~/Library/Application\ Support/Karabiner/private.xml
+curl 'https://raw.githubusercontent.com/viis/osx-compose-key/master/private.xml' -o ~/Library/Application\ Support/Karabiner/private.xml
 mkdir -p ~/Library/KeyBindings
-curl 'https://raw.githubusercontent.com/gnarf/osx-compose-key/master/DefaultKeyBinding.dict' -o ~/Library/KeyBindings/DefaultKeyBinding.dict
+curl 'https://raw.githubusercontent.com/viis/osx-compose-key/master/DefaultKeyBinding.dict' -o ~/Library/KeyBindings/DefaultKeyBinding.dict
 ```
 
-In Karabiner, enable "Send § for Right Option" (or right command if you use right alt):
+In Karabiner, enable "Send § for Right Command":
 
-![screenshot](http://gnarf.net/karabiner.png)
+![screenshot](http://i.imgur.com/rDHPh3u.png)
 
 Note: changes to `~/Library/KeyBindings/DefaultKeyBinding.dict` require quitting and restarting any apps you want to test them in.
