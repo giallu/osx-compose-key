@@ -28,4 +28,6 @@ In Karabiner, enable "Send § for Right Command":
 
 ![screenshot](https://i.imgur.com/zSJmECg.png)
 
+Your right command key is now a compose key.
+
 Note: changes to `~/Library/KeyBindings/DefaultKeyBinding.dict` require quitting and restarting any apps you want to test them in.
