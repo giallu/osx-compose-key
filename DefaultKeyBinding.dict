@@ -52,12 +52,18 @@
 	    	"e" = ("insertText:", "Æ");
 	    };
 	    '"' = {
-	    	"o" = ("insertText:", "ö");
-	    	"O" = ("insertText:", "Ö");
-	    	"a" = ("insertText:", "ä");
-	    	"A" = ("insertText:", "Ä");
-	    	"u" = ("insertText:", "ü");
-	    	"U" = ("insertText:", "Ü");
+            "a" = ("insertText:", "ä");
+            "A" = ("insertText:", "Ä");
+            "e" = ("insertText:", "ë");
+            "E" = ("insertText:", "Ë");
+            "i" = ("insertText:", "ï");
+            "I" = ("insertText:", "Ï");
+            "o" = ("insertText:", "ö");
+            "O" = ("insertText:", "Ö");
+            "u" = ("insertText:", "ü");
+            "U" = ("insertText:", "Ü");
+            "y" = ("insertText:", "ÿ");
+            "Y" = ("insertText:", "Ÿ");
 	    };
 	    "/" = {
 	    	"o" = ("insertText:", "ø");
