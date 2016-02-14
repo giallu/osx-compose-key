@@ -72,6 +72,8 @@
         "o" = {
             "a" = ("insertText:", "å");
             "A" = ("insertText:", "Å");
+            "e" = ("insertText:", "œ");
+            "E" = ("insertText:", "Œ");
         };
         "s" = {
             "s" = ("insertText:", "ß");
