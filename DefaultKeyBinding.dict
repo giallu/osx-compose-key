@@ -76,5 +76,9 @@
         "s" = {
             "s" = ("insertText:", "ß");
         };
+        "," = {
+            "c" = ("insertText:", "ç");
+            "C" = ("insertText:", "Ç");
+        };
     };
 }
