@@ -4,7 +4,7 @@
 if [[ "$(type -P brew)" && "$(brew ls --versions brew-cask)" ]]; then
   if [[ ! "$(brew cask list 2>/dev/null | grep karabiner)" ]]; then
     echo "Installing Karabiner..."
-    brew cask install karabiner
+    brew cask install karabiner-elements
   fi
 else
   echo "Homebrew and Homebrew Cask not detected. Not installing Karabiner."
@@ -17,14 +17,15 @@ else
 fi
 
 # Copy Karabiner settings.
-mkdir -p ~/Library/Application\ Support/Karabiner
+mkdir -p ~/.config/karabiner/assets/complex_modifications
 echo "Copying Karabiner settings..."
-cp private.xml ~/Library/Application\ Support/Karabiner/private.xml
+cp compose.json ~/.config/karabiner/assets/complex_modifications
 
-# Copy DefaultKeyBinding.diet
+# Copy DefaultKeyBinding.dict
 mkdir -p ~/Library/KeyBindings
 echo "Copying DefaultKeyBinding.dict..."
-cp DefaultKeyBinding.dict ~/Library/KeyBindings/DefaultKeyBinding.dict
+# use -b option to backup existing file if present
+cp -b DefaultKeyBinding.dict ~/Library/KeyBindings/DefaultKeyBinding.dict
 
 echo
 echo "Done."

@@ -1,0 +1,41 @@
+{
+  "title": "Compose for accented letters",
+  "rules": [
+    {
+      "description": "Use Caps Lock as Compose key",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "caps_lock"
+          },
+          "to": [
+            {
+              "key_code": "non_us_backslash"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Right Command+L to Lock Screen",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "l",
+            "modifiers": {
+              "mandatory": ["right_command"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "q",
+              "modifiers": ["left_control", "left_command"]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
