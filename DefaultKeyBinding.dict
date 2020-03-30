@@ -5,6 +5,49 @@
         http://github.com/gnarf/osx-compose-key
     */
     "§" = {
+        "a" = {
+          "'" = ("insertText:", "á");
+          "`" = ("insertText:", "à");
+          "e" = ("insertText:", "æ");
+        };
+        "A" = {
+          "'" = ("insertText:", "Á");
+          "`" = ("insertText:", "À");
+          "e" = ("insertText:", "Æ");
+        };
+        "e" = {
+          "'" = ("insertText:", "é");
+          "`" = ("insertText:", "è");
+          "=" = ("insertText:", "€");
+        };
+        "E" = {
+          "'" = ("insertText:", "É");
+          "`" = ("insertText:", "È");
+        };
+        "i" = {
+          "'" = ("insertText:", "í");
+          "`" = ("insertText:", "ì");
+        };
+        "I" = {
+          "'" = ("insertText:", "Í");
+          "`" = ("insertText:", "Ì");
+        };
+        "o" = {
+          "'" = ("insertText:", "ó");
+          "`" = ("insertText:", "ò");
+        };
+        "O" = {
+          "'" = ("insertText:", "Ó");
+          "`" = ("insertText:", "Ò");
+        };
+        "u" = {
+          "'" = ("insertText:", "ú");
+          "`" = ("insertText:", "ù");
+        };
+        "U" = {
+          "'" = ("insertText:", "Ú");
+          "`" = ("insertText:", "Ù");
+        };
         "'" = {
             "a" = ("insertText:", "á");
             "A" = ("insertText:", "Á");
@@ -44,12 +87,6 @@
         };
         "T" = {
             "h" = ("insertText:", "Þ");
-        };
-        "a" = {
-            "e" = ("insertText:", "æ");
-        };
-        "A" = {
-            "e" = ("insertText:", "Æ");
         };
         '"' = {
             "a" = ("insertText:", "ä");
