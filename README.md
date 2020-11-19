@@ -6,7 +6,7 @@ Adapted from [viis/osx-compose-key](https://github.com/viis/osx-compose-key).
 
 A "compose" key is an input method used for complex characters.  It allows you to press your compose key (I bind mine to Caps Lock on my mac keyboard), and then type something, for instance:
 
-* `[Compose]`, `a`, ``` = `à`
+* `[Compose]`, `a`, ````` = `à`
 * `[Compose]`, `e`, `'` = `é`
 * `[Compose]`, `a`, `e` = `æ`
 * `[Compose]`, `"`, `o` = `ö`
